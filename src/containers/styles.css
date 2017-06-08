@@ -1,0 +1,63 @@
+.app {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 800px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tasksHeader {
+    font-size: 40px;
+    text-align: center;
+}
+
+.tasksList {
+    border: 1px solid black;
+    margin: 0;
+    padding: 8px;
+    height: 60%;
+    list-style: none;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.inputBlock {
+    height: 30%;
+    border: 1px solid black;
+    margin-top: 6px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    height: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.tasksMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasksMenuItem {
+    width: 33.3%;
+    font-size: 13px;
+}
